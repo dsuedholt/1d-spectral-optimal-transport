@@ -3,15 +3,20 @@ name = "1d-spectral-optimal-transport"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "==3.10.9"
 dependencies = [
-    "jsonargparse[signatures]==4.22.1",
+    "torch==1.13.1",
+    "numpy==1.23.5",
+    "jsonargparse==4.22.1",
     "librosa>=0.11.0",
-    "lightning==1.9.3",
     "matplotlib>=3.10.3",
     "mir-eval>=0.8.2",
     "nnaudio>=0.3.3",
     "pytorch-lightning==1.9.3",
-    "torchaudio>=2.7.0",
-    "wandb>=0.19.11",
+    "lightning-utilities==0.7.0",
+    "torchaudio==0.13.1",
+    "wandb==0.15.5",
+    "typeshed-client==2.3.0",
+    "docstring-parser==0.15",
+    "pydantic>=1.9,<2",
 ]
